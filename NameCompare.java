@@ -6,10 +6,7 @@ package javaapplication23;
 
 import java.util.Comparator;
 
-/**
- *
- * @author mustafa hezer
- */
+
 public class NameCompare implements Comparator<Movie>{
     @Override
     public int compare(Movie m1,Movie m2){
