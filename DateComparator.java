@@ -6,10 +6,7 @@ package javaapplication25;
 
 import java.util.Comparator;
 
-/**
- *
- * @author mustafa hezer
- */
+
 public class DateComparator implements Comparator<Employee> {
     public int compare(Employee emp1,Employee emp2){
         return emp1.getDate().compareTo(emp2.getDate());
