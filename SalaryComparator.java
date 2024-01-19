@@ -6,10 +6,7 @@ package javaapplication25;
 
 import java.util.Comparator;
 
-/**
- *
- * @author mustafa hezer
- */
+
 public class SalaryComparator implements Comparator<Employee>{
     public int compare(Employee emp1,Employee emp2){
         return Double.compare(emp1.getSalary(),emp2.getSalary());
